@@ -1,0 +1,140 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Layout */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #24292f;
+    padding: 16px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .search-bar input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  /* Main Content */
+  main {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #0366d6;
+    font-size: 14px;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Repository Info */
+  .repo-info {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid #e1e4e8;
+  }
+  
+  .repo-info h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .repo-info p {
+    color: #586069;
+    margin-bottom: 16px;
+  }
+  
+  .repo-info .btn {
+    padding: 8px 16px;
+    background-color: #2cbe4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .repo-info .btn:hover {
+    background-color: #28a745;
+  }
+  
+  /* Content */
+  .content {
+    flex-grow: 3;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e1e4e8;
+  }
+  
+  .content h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .content-body {
+    color: #586069;
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #24292f;
+    color: white;
+    padding: 16px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
